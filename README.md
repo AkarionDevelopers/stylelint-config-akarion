@@ -5,7 +5,7 @@
 ## Usage
 
 ```bash
-npm install AkarionDevelopers/stylelint-config-akarion#v1.0.0 --save-dev
+npm install AkarionDevelopers/stylelint-config-akarion#v2.0.0 --save-dev
 ```
 
 ```js
