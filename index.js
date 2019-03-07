@@ -18,7 +18,7 @@ module.exports = {
     'block-opening-brace-newline-after': 'always-multi-line',
     'block-opening-brace-space-after': 'always-single-line',
     'block-opening-brace-space-before': 'always',
-    'color-hex-case': 'lower',
+    'color-hex-case': 'upper',
     'color-hex-length': 'short',
     'color-no-invalid-hex': true,
     'comment-empty-line-before': ['always', {
@@ -257,7 +257,7 @@ module.exports = {
     'keyframe-declaration-no-important': true,
     'length-zero-no-unit': true,
     'max-empty-lines': 1,
-    'max-nesting-depth': [1, {
+    'max-nesting-depth': [2, {
       ignore: ['blockless-at-rules'],
       ignoreAtRules: ['media'],
     }],
