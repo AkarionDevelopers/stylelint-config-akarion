@@ -45,3 +45,25 @@ If you are using VSCode with Vetur and ESLint extensions installed, be sure to c
   "scss.validate": false
 }
 ```
+
+## Lintfixing on save in VSCode
+
+To run lintfix on save follow these steps:
+1. Install VSCode extension [Save and run](https://marketplace.visualstudio.com/items?itemName=wk-j.save-and-run#overview)
+2. Place these lines in your `settings.json`:
+   
+```json
+"saveAndRun": {
+    "commands": [
+        {
+            "match": "\\.(vue|s?css)$",
+            "cmd": "npx stylelint '${file}' --fix",
+            "silent": true
+        },
+    ]
+},
+```
+
+### Caveats / Gotchas
+
+`CMD + S` isn't automatically triggering the plugin. `saveAndRun` only gets triggered if the *file actually has changed*.
