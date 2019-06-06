@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-akarion",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Akarion stylelint config",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "stylelint-order": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "^5.15.0",
+    "eslint": "^5.16.0",
     "eslint-config-akarion": "github:AkarionDevelopers/eslint-config-akarion#v2.0.0"
   }
 }
