@@ -1,12 +1,14 @@
 {
   "name": "stylelint-config-akarion",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "Akarion stylelint config",
   "private": true,
+  "type": "module",
   "scripts": {
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@stylistic/stylelint-config": "^2.0.0",
     "stylelint-order": "^6.0.4"
   }
 }
