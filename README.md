@@ -2,11 +2,18 @@
 
 > This package provides the Akarion base .stylelintrc as an extensible shared config.
 
+## Requirements
+
+- **stylelint**: ^16.0.0
+- **Node.js**: 18.12.0 or higher
+
 ## Usage
 
 ```bash
-npm install AkarionDevelopers/stylelint-config-akarion#v2.0.1 --save-dev
+npm install AkarionDevelopers/stylelint-config-akarion#v3.0.0 --save-dev
 ```
+
+**Note**: This config requires stylelint 16.0.0 or higher. It uses ESM format and extends `@stylistic/stylelint-config` for stylistic rules.
 
 ```js
 // .stylelintrc
